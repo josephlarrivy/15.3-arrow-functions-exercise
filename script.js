@@ -7,6 +7,17 @@ function double(arr) {
 
 const timesTwo = arr => arr.map(n => n*2);
 
+//solution
+const double = arr => arr.map(val => val * 2);
+
+//breakdown of above code^^
+//the function is declared as a variable instead of being named
+//the 'double' name can still be used in declaring the variable
+//if only one input argument, not need for parenthesis around it
+//writing the function keyword is avoided by using '=>' after the argument
+//because the return is implicite and on one line, the {} can be left out
+//
+
 
 
 
